@@ -1,0 +1,36 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.asklokesh/servicenow-mcp-server",
+  "description": "A highly customizable MCP server for ServiceNow API integration",
+  "title": "Servicenow",
+  "repository": {
+    "url": "https://github.com/asklokesh/servicenow-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "registryBaseUrl": "https://pypi.org",
+      "identifier": "servicenow-mcp-server",
+      "version": "0.1.0",
+      "runtimeHint": "uvx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SERVICENOW_API_KEY",
+          "description": "API Key for SERVICENOW",
+          "isRequired": true,
+          "isSecret": true
+        },
+        {
+          "name": "SERVICENOW_API_URL",
+          "description": "API URL for SERVICENOW",
+          "isRequired": false
+        }
+      ]
+    }
+  ]
+}
