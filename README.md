@@ -1,5 +1,7 @@
 # ServiceNow MCP Server
 
+<!-- mcp-name: io.github.asklokesh/servicenow-mcp -->
+
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Version](https://img.shields.io/badge/MCP-1.1.0%2B-green)](https://modelcontextprotocol.io/)
