@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "servicenow-mcp-server"
-version = "0.1.0"
+version = "0.1.1"
 description = "A highly customizable MCP server for ServiceNow API integration"
 readme = "README.md"
 license = {text = "MIT"}
